@@ -5,6 +5,11 @@
 trigger:
 - main
 
+pool:
+  name: test_agent
+  demands:
+   - agent.name -equals testinstance_agnt
+
 resources:
 - repo: self
 
