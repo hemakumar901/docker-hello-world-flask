@@ -6,9 +6,9 @@ trigger:
 - main
 
 pool:
-  name: test_agent
+  name: Azure Pipelines
   demands:
-   - agent.name -equals testinstance_agnt
+   - agent.name -equals Hosted Agent
 
 resources:
 - repo: self
